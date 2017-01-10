@@ -1,0 +1,16 @@
+//
+//  Snake.pch
+//  Snake
+//
+//  Created by MENGCHEN on 2017/1/6.
+//  Copyright © 2017年 MENGCHEN. All rights reserved.
+//
+
+#ifndef Snake_pch
+#define Snake_pch
+
+#define KeyWidth [UIScreen mainScreen].bounds.size.width
+#define KeyHeight [UIScreen mainScreen].bounds.size.height
+#define kSnakeDefaultLength 5
+#define SnakeWidth 10
+#endif /* Snake_pch */
