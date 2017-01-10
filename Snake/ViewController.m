@@ -115,13 +115,6 @@
 #pragma mark ------------------ Action ------------------
 #pragma mark action 录制点击
 - (IBAction)replayLiveClick:(id)sender {
-    NSLog(@"ReplayKit只支持真机录屏，支持游戏录屏，不支持录avplayer播放的视频");
-    if ([[RPScreenRecorder sharedRecorder] isAvailable]) {
-        NSLog(@"支持ReplayKit");
-    } else {
-        NSLog(@"不支持ReplayKit");
-        return;
-    }
     //调用支持
     [RPBroadcastActivityViewController loadBroadcastActivityViewControllerWithHandler:^(RPBroadcastActivityViewController * _Nullable broadcastActivityViewController, NSError * _Nullable error) {
         if (error != nil) {
